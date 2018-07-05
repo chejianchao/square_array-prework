@@ -1,7 +1,8 @@
 def square_array(array)
   # your code here
+  idx = 0
   array.each do |item|
-    item = item*item
-    return item
+    array[idx] = item*item
+    idx+=1
   end
 end
